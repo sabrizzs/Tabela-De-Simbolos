@@ -15,5 +15,16 @@ Para testar o tempo de execução de cada implementação, as quatro operações
 
 ## Livro do Projeto Gutenberg
 O livro [The Southern Literary Messenger](https://www.gutenberg.org/ebooks/68141) escolhido do Projeto Gutenberg possui cerca de 84240 palavras.
+As seguintes instruções foram feitas:
+* 1 82691
+* 2 at
+* 3 in
+* 4 780
 
 ### Vetor Ordenado
+Para a operação `void add (Key key, Item val);` com a instrução **1 82691**
+>Tempo de execucao para a instrucao 1: 1.06 segundos.
+>
+>A palavra at apareceu no texto 399 vez(es) ate o momento.
+
+Para a operação `Item value (Key key);` com a instrução **2 at**
