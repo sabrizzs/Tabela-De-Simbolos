@@ -25,7 +25,7 @@ As seguintes instruções foram feitas para cada uma das 5 implementações:
 
 *observação 1: o **tempo total** se refere ao tempo total da execução da implementação e não da soma dos tempos das operações. O tempo de **0 segundos** se refere à um tempo muito pequeno em relação aos outros tempos.*
 
-*observação 2: para fazer os testes, a saída do programa foi alterada para que tivesse comentários e assim facilitar o entendimento. Exemplo: "A palavra at apareceu no texto 399 vez(es) ate o momento." ao invés de "399". Porém no programa enviado, as saídas estão como no PDF do EP.*
+*observação 2: para fazer os testes, a saída do programa foi alterada para ter comentários e assim facilitar o entendimento. Exemplo: "A palavra at apareceu no texto 399 vez(es) ate o momento." ao invés de "399". Porém no programa enviado, as saídas estão como no PDF do EP.*
 
 ### Vetor Ordenado
 #### Saídas:
