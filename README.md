@@ -279,18 +279,25 @@ Para a operação `Key select (int k);` com a instrução **4 0**
 Tempo total
 >Tempo de execucao para a estrutura ARN: 0.003 segundos.
 
-### Desempenho no total de cada implementação
+## Desempenho no total de cada implementação
 
-## Texto do Projeto Gutenberg
+### Texto do Projeto Gutenberg
 Operação | VO | ABB | TR | A23 | ARN
 :----:|:--:|:---:|:--:|:---:|:---:
 add | 0.947s | 0.157s | 0.185s | 0.06s | 0.056s
 value | 0.001s | 0s | 0.001s | 0.001s | 0s
 rank | 0s | 0.003s | 0.003s | 0.001s | 0.003s
 select | 0s | 0.001s | 0.001s | 0.001s | 0.001s
-total | 0.962s | 0.175s | 0.201s | 0.098s | 0.073s
+total | 0.962s | 0.175s | 0.201s | 0.087s | 0.073s
 
-## Texto no estilo loren ipsum
+Em ordem de execução mais rápida, temos:
+1. ARN
+2. A23
+3. ABB
+4. TR
+5. VO
+
+### Texto no estilo loren ipsum
 Operação | VO | ABB | TR | A23 | ARN
 :----:|:--:|:---:|:--:|:---:|:---:
 add | 0.001 | 0.002s | 0.002s | 0.001s | 0.001s
@@ -299,4 +306,10 @@ rank | 0.001s | 0s | 0s | 0s | 0s
 select | 0.001s | 0s | 0.001s | 0.001s | 0.001s
 total | 0.003s | 0.006s | 0.005s | 0.004s | 0.003s
 
+Em ordem de execução mais rápida, temos:
+1. ARN
+2. VO
+3. A23
+4. TR
+5. ABB
 
