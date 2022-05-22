@@ -25,7 +25,6 @@ As seguintes instruções foram feitas para cada uma das 5 implementações:
 *observação: o **tempo total** se refere ao tempo total da execução da implementação e não da soma dos tempos das operações. O tempo de **0 segundos** se refere à um tempo muito pequeno em relação aos outros tempos.*
 
 ### Vetor Ordenado
-*Possui complexidade O(lg n).*
 #### Saídas:
 
 Para a operação `void add (Key key, Item val);` com a instrução **1 82691**
@@ -50,7 +49,6 @@ Tempo total
 >Tempo de execucao para a estrutura VO: 0.962 segundos.
 
 ### Árvore de Busca Binária
-*Possui complexidade de acordo com a altura da árvore (lg n <= altura <= n-1).*
 #### Saídas:
 
 Para a operação `void add (Key key, Item val);` com a instrução **1 82691**
@@ -75,7 +73,6 @@ Tempo total
 >Tempo de execucao para a estrutura ABB: 0.175 segundos.
 
 ### Treap
-*Possui complexidade O(lg n).*
 #### Saídas:
 
 Para a operação `void add (Key key, Item val);` com a instrução **1 82691**
@@ -100,7 +97,6 @@ Tempo total
 >Tempo de execucao para a estrutura TR: 0.201 segundos.
 
 ### Árvore 2-3
-*Possui complexidade O(lg n).*
 #### Saídas:
 
 Para a operação `void add (Key key, Item val);` com a instrução **1 82691**
@@ -125,7 +121,6 @@ Tempo total
 >Tempo de execucao para a estrutura ADT: 0.098 segundos.
 
 ### Árvore rubro-negra
-*Possui complexidade O(lg n).*
 #### Saídas:
 
 Para a operação `void add (Key key, Item val);` com a instrução **1 82691**
