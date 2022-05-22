@@ -10,6 +10,7 @@ Item value (Key key);
 int rank (Key key);
 Key select (int k);
 ~~~
+
 Para testar o tempo de execução de cada implementação, as quatro operações acima serão testadas com diferentes tipos de texto, sendo eles:
 <li>O livro **The Southern Literary Messenger, Vol. II., No. 3, February, 1836 by Various** disponível no Projeto Gutenberg.</li>
 <li>Texto gerado aleatoriamente com 50 parágrafos, no estilo loren ipsum.</li>
@@ -22,7 +23,9 @@ As seguintes instruções foram feitas para cada uma das 5 implementações:
 <li>3 in</li>
 <li>4 780</li>
 
-*observação: o **tempo total** se refere ao tempo total da execução da implementação e não da soma dos tempos das operações. O tempo de **0 segundos** se refere à um tempo muito pequeno em relação aos outros tempos.*
+*observação 1: o **tempo total** se refere ao tempo total da execução da implementação e não da soma dos tempos das operações. O tempo de **0 segundos** se refere à um tempo muito pequeno em relação aos outros tempos.*
+
+*observação 2: para fazer os testes, a saída do programa foi alterada para que tivesse comentários e assim facilitar o entendimento. Exemplo: "A palavra at apareceu no texto 399 vez(es) ate o momento." ao invés de "399". Porém no programa enviado, as saídas estão como no PDF do EP.*
 
 ### Vetor Ordenado
 #### Saídas:
@@ -151,8 +154,6 @@ As seguintes instruções foram feitas para cada uma das 5 implementações:
 <li>2 um</li>
 <li>3 num</li>
 <li>4 0</li>
-
-*observação: o **tempo total** se refere ao tempo total da execução da implementação e não da soma dos tempos das operações. O tempo de **0 segundos** se refere à um tempo muito pequeno em relação aos outros tempos.*
 
 ### Vetor Ordenado
 #### Saídas:
