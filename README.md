@@ -1,7 +1,7 @@
 # EP2 - Tabela De Símbolos
 ### MAC0323 – Algoritmos e Estruturas de Dados II
-### Sabrina Araújo da Silva - nºUSP 12566182
-*Implementação de uma tabela de símbolos usando **vetor ordenado**, **árvore de busca binária**, **treap**, **árvore 2-3** e **árvore rubro-negra**.*
+### Sabrina Araújo da Silva
+*Implementação de uma tabela de símbolos usando **vetor ordenado**, **árvore de busca binária**, **treap**, **árvore 2-3** e **árvore rubro-negra**. (ordered vector, binary search tree, treap, 2-3 tree, red–black tree)*
 
 Para cada implementação da tabela de símbolos ordenada foram implementadas as seguintes operações:
 ~~~cpp
@@ -14,6 +14,16 @@ Key select (int k);
 Para testar o tempo de execução de cada implementação, as quatro operações acima serão testadas com diferentes tipos de texto, sendo eles:
 * O livro **The Southern Literary Messenger, Vol. II., No. 3, February, 1836 by Various** disponível no Projeto Gutenberg.
 * Texto gerado aleatoriamente com 50 parágrafos, no estilo loren ipsum.
+
+### Descrição da entrada para os teste
+A primeira linha indica a estrutura a ser testada (VO, ABB, TR, A23, ARN). Em seguida, na segunda temos um inteiro N com o número de palavras do texto. Então, temos N palavras que constituem o texto, que poderão ocupar diversas
+linhas do input. Logo após o texto, temos um inteiro Q, que representa o número de operações
+a serem realizadas na tabela de símbolos. Em sequência, temos Q linhas, cada uma com uma
+instrução do tipo:
+* 1 x - Adicione as próximas x palavras do texto a tabela de símbolos
+* 2 s - Quantas vezes a palavra s apareceu no texto até o momento - operação `value(s)`.
+* 3 s - Quantas palavras são menores que s - operação `rank(s)`.
+* 4 k - Qual a k-ésima chave da tabela - operação `select(k)`;
 
 ## Livro do Projeto Gutenberg
 O livro The Southern Literary Messenger (disponível em https://www.gutenberg.org/ebooks/68141) escolhido do Projeto Gutenberg possui cerca de 82691 palavras.
