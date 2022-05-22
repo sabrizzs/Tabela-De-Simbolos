@@ -17,10 +17,10 @@ Para testar o tempo de execução de cada implementação, as quatro operações
 ## Livro do Projeto Gutenberg
 O livro The Southern Literary Messenger (disponível em https://www.gutenberg.org/ebooks/68141) escolhido do Projeto Gutenberg possui cerca de 82691 palavras.
 As seguintes instruções foram feitas para cada uma das 5 implementações:
-* 1 82691
-* 2 at
-* 3 in
-* 4 780
+<li>1 82691</li>
+<li>2 at</li>
+<li>3 in</li>
+<li>4 780</li>
 
 *observação: o **tempo total** se refere ao tempo total da execução da implementação e não da soma dos tempos das operações. O tempo de **0 segundos** se refere à um tempo muito pequeno em relação aos outros tempos.*
 
@@ -286,11 +286,13 @@ select | 0s | 0.001s | 0.001s | 0.001s | 0.001s
 total | 0.962s | 0.175s | 0.201s | 0.087s | 0.073s
 
 Em ordem de execução mais rápida, temos:
-1. ARN
-2. A23
-3. ABB
-4. TR
-5. VO
+<ol>
+<li>ARN</li>
+<li>A23</li>
+<li>ABB</li>
+<li>TR</li>
+<li>VO</li>
+</ol>
 
 ### Texto no estilo loren ipsum
 Operação | VO | ABB | TR | A23 | ARN
@@ -302,9 +304,11 @@ select | 0.001s | 0s | 0.001s | 0.001s | 0.001s
 total | 0.003s | 0.006s | 0.005s | 0.004s | 0.003s
 
 Em ordem de execução mais rápida, temos:
-1. ARN
-2. VO
-3. A23
-4. TR
-5. ABB
+<ol>
+<li>ARN</li>
+<li>VO</li>
+<li>A23</li>
+<li>TR</li>
+<li>ABB</li>
+</ol>
 
