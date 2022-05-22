@@ -20,6 +20,8 @@ As seguintes instruções foram feitas para cada uma das 5 implementações:
 * 3 in
 * 4 780
 
+*observação: o **tempo total** se refere ao tempo total da execução da implementação e não da soma dos tempos das operações. O tempo de **0 segundos** se refere à um tempo muito pequeno em relação aos outros tempos.*
+
 ### Vetor Ordenado
 *Possui complexidade O(lg n).*
 #### Saídas:
@@ -153,6 +155,8 @@ As seguintes instruções foram feitas para cada uma das 5 implementações:
 * 3 num
 * 4 0
 
+*observação: o **tempo total** se refere ao tempo total da execução da implementação e não da soma dos tempos das operações. O tempo de **0 segundos** se refere à um tempo muito pequeno em relação aos outros tempos.*
+
 ### Vetor Ordenado
 #### Saídas:
 
@@ -274,7 +278,23 @@ Tempo total
 >Tempo de execucao para a estrutura ARN: 0.003 segundos.
 
 ### Desempenho no total de cada implementação
-Texto | VO | ABB | TR | A23 | ARN
+
+## Texto do Projeto Gutenberg
+Operação | VO | ABB | TR | A23 | ARN
 :----:|:--:|:---:|:--:|:---:|:---:
-Projeto Gutenberg |
-loren ipsum |
+add | 0.947s | 0.157s | 0.185s | 0.06s | 0.056s
+value | 0.001s | 0s | 0.001s | 0.001s | 0s
+rank | 0s | 0.003s | 0.003s | 0.001s | 0.003s
+select | 0s | 0.001s | 0.001s | 0.001s | 0.001s
+total | 0.962s | 0.175s | 0.201s | 0.098s | 0.073s
+
+## Texto no estilo loren ipsum
+Operação | VO | ABB | TR | A23 | ARN
+:----:|:--:|:---:|:--:|:---:|:---:
+add | 0.001 | 0.002s | 0.002s | 0.001s | 0.001s
+value | 0s | 0s | 0.001s | 0s | 0.001s
+rank | 0.001s | 0s | 0s | 0s | 0s
+select | 0.001s | 0s | 0.001s | 0.001s | 0.001s
+total | 0.003s | 0.006s | 0.005s | 0.004s | 0.003s
+
+
