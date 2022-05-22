@@ -11,7 +11,7 @@ int rank (Key key);
 Key select (int k);
 ~~~
 Para testar o tempo de execução de cada implementação, as quatro operações acima serão testadas com diferentes tipos de texto, sendo eles:
-<li>O livro **The Southern Literary Messenger, Vol. II., No. 3, February, 1836 by Various** disponível no Projeto Gutenberg.</li>
+<li>O livro **The Southern Literary Messenger, Vol. II., No. 3, February, 1836 by Various**  disponível no Projeto Gutenberg.</li>
 <li>Texto gerado aleatoriamente com 50 parágrafos, no estilo loren ipsum.</li>
 
 ## Livro do Projeto Gutenberg
