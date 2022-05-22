@@ -23,8 +23,22 @@ As seguintes instruções foram feitas:
 
 ### Vetor Ordenado
 Para a operação `void add (Key key, Item val);` com a instrução **1 82691**
->Tempo de execucao para a instrucao 1: 1.06 segundos.
->
->A palavra at apareceu no texto 399 vez(es) ate o momento.
+>Tempo de execucao para a instrucao 1: 0.947 segundos.
 
 Para a operação `Item value (Key key);` com a instrução **2 at**
+>A palavra at apareceu no texto 399 vez(es) ate o momento.
+>
+>Tempo de execucao para a instrucao 2: 0.001 segundos.
+
+Para a operação `int rank (Key key);` com a instrução **3 in**
+>8003 palavra(s) sao/eh menor(es) que in.
+>
+>Tempo de execucao para a instrucao 3: 0 segundos.
+
+Para a operação `Key select (int k);` com a instrução **4 780**
+>A 780-esima chave da tabela eh Archipelago.
+>
+>Tempo de execucao para a instrucao 4: 0 segundos.
+
+Tempo total
+>Tempo de execucao para a estrutura VO: 0.962 segundos.
