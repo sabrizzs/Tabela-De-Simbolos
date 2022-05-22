@@ -12,8 +12,8 @@ Key select (int k);
 ~~~
 
 Para testar o tempo de execução de cada implementação, as quatro operações acima serão testadas com diferentes tipos de texto, sendo eles:
-<li>O livro **The Southern Literary Messenger, Vol. II., No. 3, February, 1836 by Various** disponível no Projeto Gutenberg.</li>
-<li>Texto gerado aleatoriamente com 50 parágrafos, no estilo loren ipsum.</li>
+* O livro **The Southern Literary Messenger, Vol. II., No. 3, February, 1836 by Various** disponível no Projeto Gutenberg.
+* Texto gerado aleatoriamente com 50 parágrafos, no estilo loren ipsum.
 
 ## Livro do Projeto Gutenberg
 O livro The Southern Literary Messenger (disponível em https://www.gutenberg.org/ebooks/68141) escolhido do Projeto Gutenberg possui cerca de 82691 palavras.
