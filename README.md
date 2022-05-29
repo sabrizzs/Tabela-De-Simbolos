@@ -1,6 +1,6 @@
 # EP2 - Tabela De Símbolos
 ### MAC0323 – Algoritmos e Estruturas de Dados II
-### Sabrina Araújo da Silva
+### Sabrina Araújo da Silva nºUSP 12566182
 *Implementação de uma tabela de símbolos usando **vetor ordenado**, **árvore de busca binária**, **treap**, **árvore 2-3** e **árvore rubro-negra**. (ordered vector, binary search tree, treap, 2-3 tree, red–black tree)*
 
 Para cada implementação da tabela de símbolos ordenada foram implementadas as seguintes operações:
