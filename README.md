@@ -25,6 +25,72 @@ instrução do tipo:
 * 3 s - Quantas palavras são menores que s - operação `rank(s)`.
 * 4 k - Qual a k-ésima chave da tabela - operação `select(k)`;
 
+### Descrição da implementação
+#### class Item
+A `class Item` cria um item (célula) para o vetor ordenado que recebe uma key e um value.
+<li> string chave() : retorna a key do Item</li>
+<li> int valor() : retorna o value do Item</li>
+<li> attChave() : atualiza a chave do Item</li>
+<li> attVal() : atualiza o value do Item</li>
+
+#### class No
+A `class No` cria um nó para a árvore binária que recebe uma key e um value, além de ter ponteiros para o nó esquerdo e direito.
+
+#### class NoTR
+A `class NoTR` cria um nó para a treap que recebe uma key e um value, além de ter um valor para prioridade e ponteiros para o nó esquerdo e direito. 
+
+#### class NoDT
+A `class NoDT` cria um nó para a árvore 2-3 que recebe uma key e um value, além de ter um valor booleano para marcar se o nó é dois nó ou não e ponteiros para o nó esquerdo, meio, direito e o pai do nó. 
+<li> setFilho() : coloca o nó filho de um nó na posição passada como argumento.</li>
+<li> rstFilho() : reseta a posição do nó filho para NULL.</li>
+
+#### class NoRB
+A `class NoRB` cria um nó para a árvore rubro-negra que recebe uma key e um value, além de ter a cor RED e ponteiros para o nó esquerdo, direito e o nó pai.
+<li> naEsquerda() : retorna se há um nó na esquerda do nó (tio).</li>
+<li> *tio() : retorna o tio do nó.</li>
+<li> paraBaixo() : posiciona o nó para baixo.</li>
+
+#### class VO
+A classe `class VO` determina as funções para o vetor ordenado.
+
+#### class ABB
+A classe `class ABB` determina as funções para a árvore binária.
+<li> put() : função auxiliar para a função select().</li>
+<li> getValue(), getRank(), getSelect() : funções auxiliares para as funções value, rank e select respectivamente.</li>
+
+#### class TR
+A classe `class TR` determina as funções para a treap.
+<li> *rotacaoDir() : rotaciona para a direita.</li>
+<li> *rotacaoEsq() : rotaciona para a esquerda.</li>
+<li> put() : função auxiliar para a função select().</li>
+<li> getValue(), getRank(), getSelect() : funções auxiliares para as funções value, rank e select respectivamente.</li>
+
+#### class DT
+A classe `class DT` determina as funções para a árvore 2-3.
+<li> put() : função auxiliar para a função select().</li>
+<li> procura() : procura se a chave já existe ou um lugar disponível para inserir um novo nó.</li>
+<li> addDoisNo() : adiciona o nó em um dois nó.</li>
+<li> separa() : separa nós quando um nó é adicionado em um três nó.</li>
+<li> getValue(), getRank(), getSelect() : funções auxiliares para as funções value, rank e select respectivamente.</li>
+
+#### class RB
+A classe `class RB` determina as funções para a árvore rubro-negra.
+<li> rotacaoDir() : rotaciona para a direita.</li>
+<li> rotacaoEsq() : rotaciona para a esquerda.</li>
+<li> mudaCor() : alterna a cor de um nó.</li>
+<li> redRed() : arruma a árvore quando o pai de um nó vermelho também é vermelho.</li>
+<li> procura() : procura se a chave já existe ou um lugar disponível para inserir um novo nó.</li>
+<li> getValue(), getRank(), getSelect() : funções auxiliares para as funções value, rank e select respectivamente.</li>
+
+#### função converte()
+Converte string para int para auxiliar no recebimento das funções.
+
+#### funções fVO, fABB, fTR, fADT, fARN
+As funções fVO, fABB, fTR, fADT e fARN recebem as instruções e as executam.
+
+#### arrayChar()
+Separa as palavras do texto em um vetor e retira as pontuações.
+
 ## Livro do Projeto Gutenberg
 O livro The Southern Literary Messenger (disponível em https://www.gutenberg.org/ebooks/68141) escolhido do Projeto Gutenberg possui cerca de 82691 palavras.
 As seguintes instruções foram feitas para cada uma das 5 implementações:
