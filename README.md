@@ -20,10 +20,10 @@ A primeira linha indica a estrutura a ser testada (VO, ABB, TR, A23, ARN). Em se
 linhas do input. Logo após o texto, temos um inteiro Q, que representa o número de operações
 a serem realizadas na tabela de símbolos. Em sequência, temos Q linhas, cada uma com uma
 instrução do tipo:
-* 1 x - Adicione as próximas x palavras do texto a tabela de símbolos
-* 2 s - Quantas vezes a palavra s apareceu no texto até o momento - operação `value(s)`.
-* 3 s - Quantas palavras são menores que s - operação `rank(s)`.
-* 4 k - Qual a k-ésima chave da tabela - operação `select(k)`;
+<li> 1 x - Adicione as próximas x palavras do texto a tabela de símbolos</li>
+<li> 2 s - Quantas vezes a palavra s apareceu no texto até o momento - operação `value(s)`.</li>
+<li> 3 s - Quantas palavras são menores que s - operação `rank(s)`.</li>
+<li> 4 k - Qual a k-ésima chave da tabela - operação `select(k)`;</li>
 
 ### Descrição da implementação
 #### class Item
